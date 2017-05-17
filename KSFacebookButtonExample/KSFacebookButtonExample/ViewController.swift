@@ -12,7 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Create custom Facebook button at center of the screen
+        let facebookButton = KSFacebookButton(frame: CGRect(x: 0, y: 0, width: 140, height: 55))
+        facebookButton.center = view.center
+        facebookButton.setTitle("Tap me!", for: .normal)
+        facebookButton.addTarget(self, action: #selector(facebookButtonDidTapped(sender:)), for: .touchUpInside)
+        view.addSubview(facebookButton)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +27,8 @@ class ViewController: UIViewController {
     }
 
 
+    func facebookButtonDidTapped(sender: KSFacebookButton) {
+        print("Facebook button tapped!")
+    }
 }
 
