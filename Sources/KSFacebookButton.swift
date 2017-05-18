@@ -56,7 +56,8 @@ class KSFacebookButton: UIButton {
         clipsToBounds = true
         
         // Set Facebook icon
-        let icon = UIImage(named: "icon-facebook")
+        let bundle = Bundle(for: KSFacebookButton.self)
+        let icon = UIImage(named: "icon-facebook", in: bundle, compatibleWith: nil)
         setImage(icon, for: .normal)
     }
     
