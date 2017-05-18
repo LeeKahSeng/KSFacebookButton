@@ -15,8 +15,12 @@
 
 ## Example
 
-Clone / download and run the KSFacebookButtonExample project in to see **KSFacebookButton** in action.
+Clone / download and run the KSFacebookButtonExample project to see **KSFacebookButton** in action.
+Here are few examples:
 
+![](README-Assets/example1.png)
+![](README-Assets/example2.png)
+![](README-Assets/example3.png)
 
 ## Installation
 
@@ -33,6 +37,14 @@ Clone / download and run the KSFacebookButtonExample project in to see **KSFaceb
 
 
 ## How to use
+### Storyboard
+1. Drag a UIButton to your view controller.
+2. Open Indentity Inspector and change class to KSFacebookButton.
+3. Open Attribute Inspector and select "Custom" as button type.
+4. Change the button size, corner radius and title base on your needs using storyboard.
+5. Build & run.
+
+### Code
 
 
 
