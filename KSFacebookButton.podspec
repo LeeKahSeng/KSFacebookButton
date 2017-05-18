@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KSFacebookButton'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A customizable button which looks exactly the same as FBSDKLoginButton '
 
   s.description      = 'KSFacebookButton is a simple custom button which looks exactly the same as FBSDKLoginButton. The problem with FBSDKLoginButton is that it do not allow any customization on the look and feel of the button. With KSFacebookButton you can change the title, width and height or even corner radius of the button easily.'
