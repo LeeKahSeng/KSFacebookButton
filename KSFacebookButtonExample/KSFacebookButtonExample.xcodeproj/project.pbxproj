@@ -13,6 +13,9 @@
 		F9AF671C1ECC33380014044B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9AF671B1ECC33370014044B /* Assets.xcassets */; };
 		F9AF671F1ECC33380014044B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AF671D1ECC33380014044B /* LaunchScreen.storyboard */; };
 		F9AF67281ECC339D0014044B /* KSFacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF67271ECC339D0014044B /* KSFacebookButton.swift */; };
+		F9AF672C1ECC5A700014044B /* icon-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AF67291ECC5A700014044B /* icon-facebook.png */; };
+		F9AF672D1ECC5A700014044B /* icon-facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AF672A1ECC5A700014044B /* icon-facebook@2x.png */; };
+		F9AF672E1ECC5A700014044B /* icon-facebook@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AF672B1ECC5A700014044B /* icon-facebook@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F9AF671E1ECC33380014044B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9AF67201ECC33380014044B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9AF67271ECC339D0014044B /* KSFacebookButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KSFacebookButton.swift; path = ../Sources/KSFacebookButton.swift; sourceTree = "<group>"; };
+		F9AF67291ECC5A700014044B /* icon-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-facebook.png"; sourceTree = "<group>"; };
+		F9AF672A1ECC5A700014044B /* icon-facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-facebook@2x.png"; sourceTree = "<group>"; };
+		F9AF672B1ECC5A700014044B /* icon-facebook@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-facebook@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				F9AF67271ECC339D0014044B /* KSFacebookButton.swift */,
+				F9AF67291ECC5A700014044B /* icon-facebook.png */,
+				F9AF672A1ECC5A700014044B /* icon-facebook@2x.png */,
+				F9AF672B1ECC5A700014044B /* icon-facebook@3x.png */,
 			);
 			name = Srouces;
 			sourceTree = "<group>";
@@ -135,6 +144,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9AF672E1ECC5A700014044B /* icon-facebook@3x.png in Resources */,
+				F9AF672C1ECC5A700014044B /* icon-facebook.png in Resources */,
+				F9AF672D1ECC5A700014044B /* icon-facebook@2x.png in Resources */,
 				F9AF671F1ECC33380014044B /* LaunchScreen.storyboard in Resources */,
 				F9AF671C1ECC33380014044B /* Assets.xcassets in Resources */,
 				F9AF671A1ECC33370014044B /* Main.storyboard in Resources */,
