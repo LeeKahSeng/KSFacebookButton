@@ -25,8 +25,9 @@ Here are few examples:
 ## Installation
 
 ### CocoaPods
-
-
+``` ruby
+pod 'KSFacebookButton'
+```
 
 ### Carthage
 
@@ -45,10 +46,14 @@ Here are few examples:
 5. Build & run.
 
 ### Code
-
-
-
-
+KSFacebookButton can be initialize and configure just like normal UIButton 
+```swift
+let facebookButton = KSFacebookButton(frame: CGRect(x: 0, y: 0, width: 140, height: 55))
+facebookButton.cornerRadius = 3.0
+facebookButton.setTitle("Login with Facebook", for: .normal)
+facebookButton.addTarget(self, action: #selector(facebookButtonDidTapped(sender:)), for: .touchUpInside)
+view.addSubview(facebookButton)
+```
 ## License
 
 This code is distributed under the terms and conditions of the [MIT license](LICENSE).
