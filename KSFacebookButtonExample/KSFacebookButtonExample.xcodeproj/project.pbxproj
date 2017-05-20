@@ -492,6 +492,7 @@
 				F954F1581ECFC0FD0087B9F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9AF670C1ECC33370014044B /* Build configuration list for PBXProject "KSFacebookButtonExample" */ = {
 			isa = XCConfigurationList;
