@@ -26,7 +26,8 @@
 
 import UIKit
 
-class KSFacebookButton: UIButton {
+@IBDesignable
+public class KSFacebookButton: UIButton {
     
     let buttonNormalBackgroundColor = UIColor(red: 59.0/255.0, green: 89.0/255.0, blue: 152.0/255.0, alpha: 1.0)
     let buttonHighlightBackgroundColor = UIColor(red: 31.0/255.0, green: 44.0/255.0, blue: 82.0/255.0, alpha: 1.0)
@@ -38,17 +39,17 @@ class KSFacebookButton: UIButton {
         }
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         commonSetup()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         commonSetup()
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         super.draw(rect)
         
         // Set button corner radius
@@ -61,7 +62,7 @@ class KSFacebookButton: UIButton {
         setImage(icon, for: .normal)
     }
     
-    override var isHighlighted: Bool {
+    override public var isHighlighted: Bool {
         willSet {
             backgroundColor = newValue ? buttonHighlightBackgroundColor : buttonNormalBackgroundColor
         }

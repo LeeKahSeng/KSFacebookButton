@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KSFacebookButton
 
 class ViewController: UIViewController {
 

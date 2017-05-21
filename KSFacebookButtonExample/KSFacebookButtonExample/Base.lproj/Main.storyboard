@@ -21,17 +21,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTt-3n-GAX" customClass="KSFacebookButton" customModule="KSFacebookButtonExample" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTt-3n-GAX" customClass="KSFacebookButton" customModule="KSFacebookButton">
                                 <rect key="frame" x="77" y="50" width="220" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="cTI-jm-FJb"/>
                                     <constraint firstAttribute="width" constant="220" id="idh-YW-HcP"/>
                                 </constraints>
-                                <state key="normal" title="Continue with Facebook">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <state key="normal" title="Continue with Facebook"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Tg-Zs-klr" customClass="KSFacebookButton" customModule="KSFacebookButtonExample" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Tg-Zs-klr" customClass="KSFacebookButton" customModule="KSFacebookButton">
                                 <rect key="frame" x="162" y="149" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="TRo-sR-b3x"/>

@@ -7,56 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F954F1521ECFC0FD0087B9F4 /* KSFacebookButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F954F1501ECFC0FD0087B9F4 /* KSFacebookButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F954F1551ECFC0FD0087B9F4 /* KSFacebookButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F954F14E1ECFC0FC0087B9F4 /* KSFacebookButton.framework */; };
-		F954F1561ECFC0FD0087B9F4 /* KSFacebookButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F954F14E1ECFC0FC0087B9F4 /* KSFacebookButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F954F15B1ECFC1730087B9F4 /* icon-facebook.png in Sources */ = {isa = PBXBuildFile; fileRef = F9AA45FD1ECDA850008513E9 /* icon-facebook.png */; };
-		F954F15C1ECFC1730087B9F4 /* icon-facebook@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F9AA45FE1ECDA850008513E9 /* icon-facebook@2x.png */; };
-		F954F15D1ECFC1730087B9F4 /* icon-facebook@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = F9AA45FF1ECDA850008513E9 /* icon-facebook@3x.png */; };
-		F954F15E1ECFC1730087B9F4 /* KSFacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AA46001ECDA850008513E9 /* KSFacebookButton.swift */; };
-		F9AA46011ECDA850008513E9 /* icon-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AA45FD1ECDA850008513E9 /* icon-facebook.png */; };
-		F9AA46021ECDA850008513E9 /* icon-facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AA45FE1ECDA850008513E9 /* icon-facebook@2x.png */; };
-		F9AA46031ECDA850008513E9 /* icon-facebook@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AA45FF1ECDA850008513E9 /* icon-facebook@3x.png */; };
-		F9AA46041ECDA850008513E9 /* KSFacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AA46001ECDA850008513E9 /* KSFacebookButton.swift */; };
 		F9AF67151ECC33370014044B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF67141ECC33370014044B /* AppDelegate.swift */; };
 		F9AF67171ECC33370014044B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF67161ECC33370014044B /* ViewController.swift */; };
 		F9AF671A1ECC33370014044B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AF67181ECC33370014044B /* Main.storyboard */; };
 		F9AF671C1ECC33380014044B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9AF671B1ECC33370014044B /* Assets.xcassets */; };
 		F9AF671F1ECC33380014044B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AF671D1ECC33380014044B /* LaunchScreen.storyboard */; };
+		F9F6CE401ED1A68900EBEDD0 /* KSFacebookButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F6CE351ED1653100EBEDD0 /* KSFacebookButton.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F954F1531ECFC0FD0087B9F4 /* PBXContainerItemProxy */ = {
+		F9F6CE341ED1653100EBEDD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F9AF67091ECC33370014044B /* Project object */;
+			containerPortal = F9F6CE301ED1653100EBEDD0 /* KSFacebookButton.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F9F6CE1B1ED1639C00EBEDD0;
+			remoteInfo = KSFacebookButton;
+		};
+		F9F6CE3D1ED1691700EBEDD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F6CE301ED1653100EBEDD0 /* KSFacebookButton.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = F954F14D1ECFC0FC0087B9F4;
+			remoteGlobalIDString = F9F6CE1A1ED1639C00EBEDD0;
 			remoteInfo = KSFacebookButton;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		F954F15A1ECFC0FD0087B9F4 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				F954F1561ECFC0FD0087B9F4 /* KSFacebookButton.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		F954F14E1ECFC0FC0087B9F4 /* KSFacebookButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSFacebookButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F954F1501ECFC0FD0087B9F4 /* KSFacebookButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSFacebookButton.h; sourceTree = "<group>"; };
-		F954F1511ECFC0FD0087B9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9AA45FD1ECDA850008513E9 /* icon-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-facebook.png"; sourceTree = "<group>"; };
-		F9AA45FE1ECDA850008513E9 /* icon-facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-facebook@2x.png"; sourceTree = "<group>"; };
-		F9AA45FF1ECDA850008513E9 /* icon-facebook@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-facebook@3x.png"; sourceTree = "<group>"; };
-		F9AA46001ECDA850008513E9 /* KSFacebookButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSFacebookButton.swift; sourceTree = "<group>"; };
 		F9AF67111ECC33370014044B /* KSFacebookButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSFacebookButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9AF67141ECC33370014044B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9AF67161ECC33370014044B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,62 +40,26 @@
 		F9AF671B1ECC33370014044B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9AF671E1ECC33380014044B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9AF67201ECC33380014044B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F6CE301ED1653100EBEDD0 /* KSFacebookButton.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KSFacebookButton.xcodeproj; path = ../KSFacebookButton/KSFacebookButton.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F954F14A1ECFC0FC0087B9F4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F9AF670E1ECC33370014044B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F954F1551ECFC0FD0087B9F4 /* KSFacebookButton.framework in Frameworks */,
+				F9F6CE401ED1A68900EBEDD0 /* KSFacebookButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F954F14F1ECFC0FC0087B9F4 /* KSFacebookButton */ = {
-			isa = PBXGroup;
-			children = (
-				F954F1501ECFC0FD0087B9F4 /* KSFacebookButton.h */,
-				F954F1511ECFC0FD0087B9F4 /* Info.plist */,
-			);
-			path = KSFacebookButton;
-			sourceTree = "<group>";
-		};
-		F9AA45FB1ECDA850008513E9 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				F9AA45FC1ECDA850008513E9 /* Images */,
-				F9AA46001ECDA850008513E9 /* KSFacebookButton.swift */,
-			);
-			name = Sources;
-			path = ../Sources;
-			sourceTree = "<group>";
-		};
-		F9AA45FC1ECDA850008513E9 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				F9AA45FD1ECDA850008513E9 /* icon-facebook.png */,
-				F9AA45FE1ECDA850008513E9 /* icon-facebook@2x.png */,
-				F9AA45FF1ECDA850008513E9 /* icon-facebook@3x.png */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
 		F9AF67081ECC33370014044B = {
 			isa = PBXGroup;
 			children = (
-				F9AA45FB1ECDA850008513E9 /* Sources */,
+				F9F6CE301ED1653100EBEDD0 /* KSFacebookButton.xcodeproj */,
 				F9AF67131ECC33370014044B /* KSFacebookButtonExample */,
-				F954F14F1ECFC0FC0087B9F4 /* KSFacebookButton */,
 				F9AF67121ECC33370014044B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				F9AF67111ECC33370014044B /* KSFacebookButtonExample.app */,
-				F954F14E1ECFC0FC0087B9F4 /* KSFacebookButton.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,38 +85,17 @@
 			path = KSFacebookButtonExample;
 			sourceTree = "<group>";
 		};
+		F9F6CE311ED1653100EBEDD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F6CE351ED1653100EBEDD0 /* KSFacebookButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		F954F14B1ECFC0FC0087B9F4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F954F1521ECFC0FD0087B9F4 /* KSFacebookButton.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		F954F14D1ECFC0FC0087B9F4 /* KSFacebookButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F954F1591ECFC0FD0087B9F4 /* Build configuration list for PBXNativeTarget "KSFacebookButton" */;
-			buildPhases = (
-				F954F1491ECFC0FC0087B9F4 /* Sources */,
-				F954F14A1ECFC0FC0087B9F4 /* Frameworks */,
-				F954F14B1ECFC0FC0087B9F4 /* Headers */,
-				F954F14C1ECFC0FC0087B9F4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KSFacebookButton;
-			productName = KSFacebookButton;
-			productReference = F954F14E1ECFC0FC0087B9F4 /* KSFacebookButton.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		F9AF67101ECC33370014044B /* KSFacebookButtonExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9AF67231ECC33380014044B /* Build configuration list for PBXNativeTarget "KSFacebookButtonExample" */;
@@ -185,12 +103,11 @@
 				F9AF670D1ECC33370014044B /* Sources */,
 				F9AF670E1ECC33370014044B /* Frameworks */,
 				F9AF670F1ECC33370014044B /* Resources */,
-				F954F15A1ECFC0FD0087B9F4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F954F1541ECFC0FD0087B9F4 /* PBXTargetDependency */,
+				F9F6CE3E1ED1691700EBEDD0 /* PBXTargetDependency */,
 			);
 			name = KSFacebookButtonExample;
 			productName = KSFacebookButtonExample;
@@ -207,11 +124,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Lee Kah Seng";
 				TargetAttributes = {
-					F954F14D1ECFC0FC0087B9F4 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = SM42V25455;
-						ProvisioningStyle = Automatic;
-					};
 					F9AF67101ECC33370014044B = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = SM42V25455;
@@ -230,29 +142,34 @@
 			mainGroup = F9AF67081ECC33370014044B;
 			productRefGroup = F9AF67121ECC33370014044B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F9F6CE311ED1653100EBEDD0 /* Products */;
+					ProjectRef = F9F6CE301ED1653100EBEDD0 /* KSFacebookButton.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F9AF67101ECC33370014044B /* KSFacebookButtonExample */,
-				F954F14D1ECFC0FC0087B9F4 /* KSFacebookButton */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		F954F14C1ECFC0FC0087B9F4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+/* Begin PBXReferenceProxy section */
+		F9F6CE351ED1653100EBEDD0 /* KSFacebookButton.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KSFacebookButton.framework;
+			remoteRef = F9F6CE341ED1653100EBEDD0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
 		F9AF670F1ECC33370014044B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9AA46031ECDA850008513E9 /* icon-facebook@3x.png in Resources */,
-				F9AA46011ECDA850008513E9 /* icon-facebook.png in Resources */,
-				F9AA46021ECDA850008513E9 /* icon-facebook@2x.png in Resources */,
 				F9AF671F1ECC33380014044B /* LaunchScreen.storyboard in Resources */,
 				F9AF671C1ECC33380014044B /* Assets.xcassets in Resources */,
 				F9AF671A1ECC33370014044B /* Main.storyboard in Resources */,
@@ -262,22 +179,10 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F954F1491ECFC0FC0087B9F4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F954F15B1ECFC1730087B9F4 /* icon-facebook.png in Sources */,
-				F954F15C1ECFC1730087B9F4 /* icon-facebook@2x.png in Sources */,
-				F954F15D1ECFC1730087B9F4 /* icon-facebook@3x.png in Sources */,
-				F954F15E1ECFC1730087B9F4 /* KSFacebookButton.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F9AF670D1ECC33370014044B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9AA46041ECDA850008513E9 /* KSFacebookButton.swift in Sources */,
 				F9AF67171ECC33370014044B /* ViewController.swift in Sources */,
 				F9AF67151ECC33370014044B /* AppDelegate.swift in Sources */,
 			);
@@ -286,10 +191,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F954F1541ECFC0FD0087B9F4 /* PBXTargetDependency */ = {
+		F9F6CE3E1ED1691700EBEDD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F954F14D1ECFC0FC0087B9F4 /* KSFacebookButton */;
-			targetProxy = F954F1531ECFC0FD0087B9F4 /* PBXContainerItemProxy */;
+			name = KSFacebookButton;
+			targetProxy = F9F6CE3D1ED1691700EBEDD0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -313,54 +218,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F954F1571ECFC0FD0087B9F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SM42V25455;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = KSFacebookButton/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LeeKahSeng.KSFacebookButton;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F954F1581ECFC0FD0087B9F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SM42V25455;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = KSFacebookButton/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LeeKahSeng.KSFacebookButton;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F9AF67211ECC33380014044B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -457,7 +314,6 @@
 		F9AF67241ECC33380014044B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SM42V25455;
 				INFOPLIST_FILE = KSFacebookButtonExample/Info.plist;
@@ -471,7 +327,6 @@
 		F9AF67251ECC33380014044B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SM42V25455;
 				INFOPLIST_FILE = KSFacebookButtonExample/Info.plist;
@@ -485,15 +340,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F954F1591ECFC0FD0087B9F4 /* Build configuration list for PBXNativeTarget "KSFacebookButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F954F1571ECFC0FD0087B9F4 /* Debug */,
-				F954F1581ECFC0FD0087B9F4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		F9AF670C1ECC33370014044B /* Build configuration list for PBXProject "KSFacebookButtonExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
