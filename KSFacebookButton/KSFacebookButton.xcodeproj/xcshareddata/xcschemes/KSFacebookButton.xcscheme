@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F954F14D1ECFC0FC0087B9F4"
+               BlueprintIdentifier = "F9F6CE1A1ED1639C00EBEDD0"
                BuildableName = "KSFacebookButton.framework"
                BlueprintName = "KSFacebookButton"
-               ReferencedContainer = "container:KSFacebookButtonExample.xcodeproj">
+               ReferencedContainer = "container:KSFacebookButton.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F954F14D1ECFC0FC0087B9F4"
+            BlueprintIdentifier = "F9F6CE1A1ED1639C00EBEDD0"
             BuildableName = "KSFacebookButton.framework"
             BlueprintName = "KSFacebookButton"
-            ReferencedContainer = "container:KSFacebookButtonExample.xcodeproj">
+            ReferencedContainer = "container:KSFacebookButton.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F954F14D1ECFC0FC0087B9F4"
+            BlueprintIdentifier = "F9F6CE1A1ED1639C00EBEDD0"
             BuildableName = "KSFacebookButton.framework"
             BlueprintName = "KSFacebookButton"
-            ReferencedContainer = "container:KSFacebookButtonExample.xcodeproj">
+            ReferencedContainer = "container:KSFacebookButton.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
