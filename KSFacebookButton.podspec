@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
-  s.source_files = 'Sources/*.swift'
-  s.resources = 'Sources/Images/*'
+  s.source_files = 'KSFacebookButton/KSFacebookButton/Sources/*.swift'
+  s.resources = 'KSFacebookButton/KSFacebookButton/Sources/Images/*'
 
 end
