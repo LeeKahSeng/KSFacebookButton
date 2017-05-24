@@ -1,5 +1,10 @@
 # KSFacebookButton
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods](https://img.shields.io/cocoapods/v/KSFacebookButton.svg)](http://cocoapods.org/pods/KSFacebookButton)
+[![Platform](https://img.shields.io/cocoapods/p/KSFacebookButton.svg?)](http://cocoadocs.org/docsets/KSFacebookButton)
+[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Carthage/Carthage/master/LICENSE.md)
+
 **KSFacebookButton** is a simple custom button which look exactly the same as FBSDKLoginButton. The problem with FBSDKLoginButton is that it do not allow any customization on the look and feel of the button. With **KSFacebookButton** you can change the title, width and height or even corner radius of the button easily.
 
 
