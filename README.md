@@ -20,7 +20,7 @@
 
 ## Example
 
-Clone / download and run the KSFacebookButtonExample project to see **KSFacebookButton** in action.
+Clone / download and open ```KSFacebookButtonExample.xcworkspace``` to see **KSFacebookButton** in action.
 Here are few examples:
 
 ![](README-Assets/example1.png)
