@@ -7,32 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9498F401F357B69003E3DE8 /* KSFacebookButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9498F3F1F357B69003E3DE8 /* KSFacebookButton.framework */; };
 		F9AF67151ECC33370014044B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF67141ECC33370014044B /* AppDelegate.swift */; };
 		F9AF67171ECC33370014044B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF67161ECC33370014044B /* ViewController.swift */; };
 		F9AF671A1ECC33370014044B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AF67181ECC33370014044B /* Main.storyboard */; };
 		F9AF671C1ECC33380014044B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9AF671B1ECC33370014044B /* Assets.xcassets */; };
 		F9AF671F1ECC33380014044B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AF671D1ECC33380014044B /* LaunchScreen.storyboard */; };
-		F9F6CE401ED1A68900EBEDD0 /* KSFacebookButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F6CE351ED1653100EBEDD0 /* KSFacebookButton.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F9F6CE341ED1653100EBEDD0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F9F6CE301ED1653100EBEDD0 /* KSFacebookButton.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F9F6CE1B1ED1639C00EBEDD0;
-			remoteInfo = KSFacebookButton;
-		};
-		F9F6CE3D1ED1691700EBEDD0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F9F6CE301ED1653100EBEDD0 /* KSFacebookButton.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F9F6CE1A1ED1639C00EBEDD0;
-			remoteInfo = KSFacebookButton;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F9498F3D1F357A14003E3DE8 /* KSFacebookButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KSFacebookButton.framework; path = "../KSFacebookButton/build/Debug-iphoneos/KSFacebookButton.framework"; sourceTree = "<group>"; };
+		F9498F3F1F357B69003E3DE8 /* KSFacebookButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KSFacebookButton.framework; path = "../KSFacebookButton/build/Debug-iphoneos/KSFacebookButton.framework"; sourceTree = "<group>"; };
 		F9AF67111ECC33370014044B /* KSFacebookButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSFacebookButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9AF67141ECC33370014044B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9AF67161ECC33370014044B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +25,6 @@
 		F9AF671B1ECC33370014044B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9AF671E1ECC33380014044B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9AF67201ECC33380014044B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9F6CE301ED1653100EBEDD0 /* KSFacebookButton.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KSFacebookButton.xcodeproj; path = ../KSFacebookButton/KSFacebookButton.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,19 +32,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9F6CE401ED1A68900EBEDD0 /* KSFacebookButton.framework in Frameworks */,
+				F9498F401F357B69003E3DE8 /* KSFacebookButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9498F3C1F357A14003E3DE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9498F3F1F357B69003E3DE8 /* KSFacebookButton.framework */,
+				F9498F3D1F357A14003E3DE8 /* KSFacebookButton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9AF67081ECC33370014044B = {
 			isa = PBXGroup;
 			children = (
-				F9F6CE301ED1653100EBEDD0 /* KSFacebookButton.xcodeproj */,
 				F9AF67131ECC33370014044B /* KSFacebookButtonExample */,
 				F9AF67121ECC33370014044B /* Products */,
+				F9498F3C1F357A14003E3DE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,14 +78,6 @@
 			path = KSFacebookButtonExample;
 			sourceTree = "<group>";
 		};
-		F9F6CE311ED1653100EBEDD0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F9F6CE351ED1653100EBEDD0 /* KSFacebookButton.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,7 +92,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				F9F6CE3E1ED1691700EBEDD0 /* PBXTargetDependency */,
 			);
 			name = KSFacebookButtonExample;
 			productName = KSFacebookButtonExample;
@@ -142,28 +126,12 @@
 			mainGroup = F9AF67081ECC33370014044B;
 			productRefGroup = F9AF67121ECC33370014044B /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = F9F6CE311ED1653100EBEDD0 /* Products */;
-					ProjectRef = F9F6CE301ED1653100EBEDD0 /* KSFacebookButton.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				F9AF67101ECC33370014044B /* KSFacebookButtonExample */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		F9F6CE351ED1653100EBEDD0 /* KSFacebookButton.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = KSFacebookButton.framework;
-			remoteRef = F9F6CE341ED1653100EBEDD0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F9AF670F1ECC33370014044B /* Resources */ = {
@@ -189,14 +157,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F9F6CE3E1ED1691700EBEDD0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KSFacebookButton;
-			targetProxy = F9F6CE3D1ED1691700EBEDD0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F9AF67181ECC33370014044B /* Main.storyboard */ = {
