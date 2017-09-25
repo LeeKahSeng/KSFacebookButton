@@ -124,6 +124,7 @@
 					F9F6CE1A1ED1639C00EBEDD0 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = SM42V25455;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -286,7 +287,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.LeeKahSeng.KSFacebookButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -305,7 +307,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.LeeKahSeng.KSFacebookButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

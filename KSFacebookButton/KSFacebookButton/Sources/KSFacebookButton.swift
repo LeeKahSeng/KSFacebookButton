@@ -74,7 +74,7 @@ public class KSFacebookButton: UIButton {
         setTitleColor(.white, for: .normal)
         setTitleColor(.white, for: .highlighted)
         if #available(iOS 8.2, *) {
-            titleLabel?.font = UIFont.systemFont(ofSize: 13, weight: UIFontWeightMedium)
+            titleLabel?.font = UIFont.systemFont(ofSize: 13, weight: UIFont.Weight.medium)
         } else {
             // Fallback on earlier versions
             titleLabel?.font = UIFont.systemFont(ofSize: 13)
