@@ -10,9 +10,9 @@
 
 ## Requirements
 
-* Xcode 8 or later
+* Xcode 9 or later
 * iOS 8.0 or later
-* Swift 3.0 or later
+* Swift 4.0 or later
 
 ## Features
 
