@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
 
 
-    func facebookButtonDidTapped(sender: KSFacebookButton) {
+    @objc func facebookButtonDidTapped(sender: KSFacebookButton) {
         print("Facebook button tapped!")
     }
 }
