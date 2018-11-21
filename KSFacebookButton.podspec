@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
     :branch => 'master'
   }
 
+  s.swift_version = '4.2'
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
   s.source_files = 'KSFacebookButton/KSFacebookButton/Sources/*.swift'
