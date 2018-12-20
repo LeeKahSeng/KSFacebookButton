@@ -42,7 +42,7 @@ github "LeeKahSeng/KSFacebookButton"
 2. At ```Build Phases``` tab, add ```KSFacebookButton.framework``` to ```Link Binary with Libraries```.
 3. At ```General``` tab, add ```KSFacebookButton.framework``` to ```Embedded Binaries```.
 
-**Note: If using Carthage for installation, ```IBDesignable``` and ```IBInspectable``` will not work due to a bug in XCode. Details information can be found [here](https://github.com/Carthage/Carthage/issues/335).**
+**Note: If using Carthage for installation, ```IBDesignable``` and ```IBInspectable``` will not work due Xcode limitation. Details information can be found [here](https://github.com/Carthage/Carthage/issues/335).**
 
 ### Manually
 1. Download the project.
